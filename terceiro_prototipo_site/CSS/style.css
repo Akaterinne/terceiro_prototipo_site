@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --margin: 30px 80px;
+}
+
+.cabecalho {
+    display: flex;
+    font-family: var(--font-family);
+    margin: var(--margin);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .links {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho h1{
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho .destaque {
+    background-color: #000000c4 ;
+    color: #fff;
+}
+
+.corpo1 {
+    display: flex;
+    font-family: var(--font-family);
+    margin: var(--margin);
+    background-image: url(../imagens/banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;    
+}
+
+.corpo1 h2 {
+    margin-left: 70px;
+}
+
+.corpo1 .h2menor {
+    font-weight: 100;
+}
+
+.corpo1 h1 {
+    margin-left: 70px;
+    font-size: 70px ;
+    color: rgb(44, 125, 202);
+}
+
+.corpo2 {
+    display: flex;
+    margin: var(--margin);
+    gap: 50px;
+}
+
+.corpo2 h5 {
+    font-family: var(--font-family);
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.corpo2 .leia-mais {
+    font-weight: 700;
+    color: rgb(44, 125, 202) ;
+}
+
+.corpo2 img {
+    width: 50px;
+}
+
+.corpo2 .componente {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.corpo2 h4 {
+    font-family: var(--font-family);
+    margin-bottom: 20px;
+}
